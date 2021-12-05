@@ -1,16 +1,16 @@
 import React from 'react';
-import { FeatureContainer,  } from './styles/Feature.styled'
+import { BannerContainer,  } from './styles/Banner.styled'
 import { Button } from './styles/Button.styled';
 
-const Feature = () => {
+const Banner = () => {
   return (
-    <FeatureContainer>
+    <BannerContainer>
       <h1>Car of the Day</h1>
       <p>the best deal for this model only today for 20% off!!</p>
       
       <Button>Order Now</Button>
-    </FeatureContainer>
+    </BannerContainer>
   );
 };
 
-export default Feature;
+export default Banner;

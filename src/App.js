@@ -1,15 +1,21 @@
 
 import './App.css';
 import Header from './components/Header';
-import Feature from './components/Feature';
+import About from './components/About';
+import Banner from './components/Banner';
 import Products from './components/Products';
+import Form from './components/Form';
+
 function App() {
   return (
     
     <div>
       <Header />
-      <Feature />
+      <About />
+      <Banner />
       <Products/>
+      <Form/>
+
       </div>
 
     

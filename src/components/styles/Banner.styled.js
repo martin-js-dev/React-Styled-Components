@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const FeatureContainer = styled.div`
+export const BannerContainer = styled.div`
   
   height: 100vh;
   max-height: 500px;
