@@ -5,6 +5,7 @@ import About from './components/About';
 import Banner from './components/Banner';
 import Products from './components/Products';
 import Form from './components/Form';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Products/>
       <Form/>
+      <Footer />
 
       </div>
 
