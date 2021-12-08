@@ -26,6 +26,7 @@ export const ProductImg = styled.img`
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px #fdc500;
+  border-radius:5px;
 `;
 
 export const ProductsHeading = styled.h1`

@@ -1,14 +1,22 @@
-import { StyledHeader, Nav, Logo, Image } from './styles/Header.styled'
+import { StyledHeader, Nav, Logo, Image, MenuLinks, Link } from './styles/Header.styled'
 import { Container } from './styles/Container.styled'
 import { Flex } from './styles/Flex.styled'
 import { Button } from './styles/Button.styled'
+import logo from './images/logo.png';
+import hero from './images/hero.png';
+
 
 export default function Header() {
   return (
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src="./images/logo.png" alt="Logo" />
+        <Logo src={logo}  ></Logo>
+        <MenuLinks></MenuLinks>
+            <Link to='/'>Home</Link>
+            <Link to='/'>About us</Link>
+            <Link to='/'>Locations</Link>
+            <Link to='/'>Catalog</Link>
           
           <Button>Contact us</Button>
         </Nav>
@@ -27,7 +35,7 @@ export default function Header() {
             </Button>
           </div>
 
-          <Image src='./images/hero.png' alt='hero image' />
+          <Image src={hero} />
         </Flex>
       </Container>
     </StyledHeader>

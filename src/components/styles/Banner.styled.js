@@ -2,24 +2,29 @@ import styled from 'styled-components';
 
 
 export const BannerContainer = styled.div`
-  
-  height: 100vh;
+margin-top:5rem;
+  background:#101522;
   max-height: 500px;
   background-position: center;
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: #333;
+  color: #f2f2f2;
   text-align: center;
   padding: 0 1rem;
+  display:flex;
   h1 {
     font-size:2rem;
   }
   p {
     margin-bottom: 1rem;
     font-size: 1.5rem
+  }
+  @media (max-width: 780px) {
+    display:block;
+    padding-top:2rem;
   }
 `;
 

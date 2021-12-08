@@ -16,18 +16,32 @@ export const Nav = styled.nav`
 `
 
 export const Logo = styled.img`
-width:50px;
-height:50px;
+width:100px;
+height:70px;
   @media (max-width: 480px) {
     margin-bottom: 40px;
   }
 `
 
 export const Image = styled.img`
-  width: 375px;
+  width: 475px;
   height:375px;
   margin-left: 40px;
-  @media (max-width: 480px) {
-    margin: 40px 0 30px;
+  @media (max-width: 780px) {
+    display:none;
+  }
+`
+
+export const MenuLinks = styled.div`
+  display:flex;
+ 
+  @media (max-width: 780px) {
+    display:none;
+  }
+`
+export const Link = styled.div`
+  color:#333;
+  @media (max-width: 780px) {
+    display:none;
   }
 `
