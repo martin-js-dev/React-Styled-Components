@@ -8,6 +8,7 @@ import {
   FaLinkedin
 } from 'react-icons/fa';
 import {
+  Logo,
   FooterContainer,
   FooterSubscription,
   FooterSubText,
@@ -21,13 +22,11 @@ import {
   FooterLink,
   SocialMedia,
   SocialMediaWrap,
-  SocialLogo,
-  SocialIcon,
   WebsiteRights,
   SocialIcons,
   SocialIconLink
 } from './styles/Footer.styled';
-
+import logo from './images/logo.png';
 function Footer() {
   return (
     <FooterContainer>
@@ -72,10 +71,7 @@ function Footer() {
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
-          <SocialLogo to='/'>
-            <SocialIcon />
-            MV Autos
-          </SocialLogo>
+        <Logo src={logo}  ></Logo>
           <WebsiteRights>MV Autos © 2021</WebsiteRights>
           <SocialIcons>
             <SocialIconLink  target='_blank' aria-label='Facebook'>

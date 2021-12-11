@@ -13,12 +13,15 @@ export const ProductWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+ 
+    
 `;
 
 export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
+ 
 `;
 
 export const ProductImg = styled.img`
@@ -27,6 +30,11 @@ export const ProductImg = styled.img`
   max-width: 100%;
   box-shadow: 8px 8px #fdc500;
   border-radius:5px;
+  &:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+  }
 `;
 
 export const ProductsHeading = styled.h1`

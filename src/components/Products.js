@@ -10,7 +10,7 @@ import {
  
 } from './styles/Products.styled';
 
-import { Button } from './styles/Button.styled';
+
 import car1 from './images/car1.png';
 import car2 from './images/car2.jpg';
 import car3 from './images/car3.jpg';
@@ -47,13 +47,10 @@ const Products = () => {
           <ProductCard>
           <ProductImg  src={car1} />
           <ProductTitle>BMW Alpine</ProductTitle>
-          <Button>See all</Button>
+          
           </ProductCard>
-      
-          <ProductCard>
-          <ProductImg  src={car2}/>
-          <ProductTitle>Range Rover</ProductTitle>
-          </ProductCard>
+         
+          
           
       </ProductWrapper>
     </ProductsContainer>

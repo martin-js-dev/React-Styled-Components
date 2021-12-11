@@ -41,6 +41,9 @@ export const MenuLinks = styled.div`
 `
 export const Link = styled.div`
   color:#333;
+  &:hover{
+    cursor:pointer;
+  }
   @media (max-width: 780px) {
     display:none;
   }

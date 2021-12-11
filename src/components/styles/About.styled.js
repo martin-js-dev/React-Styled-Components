@@ -38,6 +38,8 @@ export const FeatureColumn = styled.div`
 `;
 
 export const FeatureImageWrapper = styled.div`
+width:200px;
+height:200px;
 	margin-bottom: 1rem;
 	border-radius: 50%;
 	border: 2px solid #000;
@@ -61,6 +63,8 @@ export const FeatureText = styled.p`
 	letter-spacing: 0.5px;
 	color: #626881;
 	@media screen and (max-width: 768px) {
-		display: none;
+		
 	}
 `;
+
+

@@ -12,7 +12,7 @@ margin-top:5rem;
   justify-content: center;
   align-items: center;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 0 1rem;
   display:flex;
   h1 {

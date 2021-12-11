@@ -147,3 +147,10 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   font-size: 24px;
 `;
+export const Logo = styled.img`
+width:100px;
+height:70px;
+  @media (max-width: 480px) {
+    margin-bottom: 40px;
+  }
+`

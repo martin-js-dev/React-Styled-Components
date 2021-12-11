@@ -21,21 +21,14 @@ export const FormColumn = styled.div`
 	background: white;
 	border: 20px;
 	flex: 1;
-	max-width: 60%;
+	max-width: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border-radius: 20px;
 	flex-direction: column;
-	@media screen and (max-width: 768px) {
-		max-width: 100% !important;
-		flex-basis: 100%;
-	}
-	img {
-		@media screen and (max-width: 768px) {
-			display: none;
-		}
-	}
+	
+	
 `;
 
 export const FormRow = styled.div`
